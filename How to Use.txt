@@ -1,0 +1,6 @@
+How to run the project titled "Car Rental System"?
+
+1.Install WAMPServer Version 2.1 32bit
+2.Copy the folder Project in wamp\www
+3.Copy the content of 'mysql.sql' in phpMyAdmin-> SQL
+4. Click Go.

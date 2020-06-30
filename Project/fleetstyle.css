@@ -1,0 +1,129 @@
+body
+{
+margin:0;
+padding:0; 
+}
+ 
+
+h1,h2,h3{
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:21px;
+	color:white;
+	}
+
+.header
+{
+list-style-type:none;
+margin:0;
+padding:0;
+background-color:#333;
+font-family:Arial, Helvetica, sans-serif;
+font-style:normal;
+position:fixed;
+width:100%;
+}
+
+
+li
+{
+float:right;
+}
+
+a:hover{
+	text-decoration:none;
+	color: orange;
+}
+
+li a
+{
+display:block;
+color:silver;
+padding:20px;
+text-decoration:none;
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+	float:right;
+}
+
+.dropdown-content {
+    display: none;
+	top:100%;
+    position: absolute;
+    background-color: beige;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover 
+{
+background-color: orange
+}
+
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+
+
+div img 
+{
+    max-width: 100%;
+    max-height: 100%;
+    padding-right:50px;
+}
+figure
+{
+	border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+figure:hover
+{
+	box-shadow: 0 0 2px 4px rgba(0, 140, 186, 0.5);
+}
+
+.imgContainer
+{
+   	margin:75px 0 0 0;
+	padding-left:10px;
+	float:left;
+	z-index:-1;
+	position:relative;
+	left:0px;
+	margin-left:3%;
+}
+
+
+.btn {
+  background: linear-gradient(#49708f, #293f50);
+  border:0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left:25%;
+  padding: 8px 46px;
+}
+
+.specs
+{
+padding-left:30px;
+}
+
+
+.logo
+{
+	float:left;
+}
